@@ -11,6 +11,39 @@
       <h1>'H1'Este é o nosso HTML Playground hahahah</h1>
     </header>
 
+    <div>
+      <form action="/contato" method="POST">
+        <label for="nome">Nome</label>
+        <input name="nome" id="nome" type="text" placeholder="Digite seu nome" value="Valor padrão">
+        <br>
+        <label for="descricao">Descrição</label>
+        <textarea name="desc" id="descricao"></textarea>
+        <br>
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado">
+          <option value="PR">Parana</option>
+          <option value="SP">Sao Paulo</option>
+          <option value="CE">Ceara</option>
+          <option value="AM">Amazonas</option>
+        </select>
+        <br>
+        <label for="email">Email</label>
+        <input name="email" id="email" type="email">
+        <br>
+        <label for="check">Quero receber email</label>
+        <input name="receberEmail" id="check" type="checkbox">
+        <br>
+        <label for="radio">Selecione seu range de idade:</label>
+        <input name="rangeIdade" id="radio" type="radio" >menos de 30 anos
+        <input name="rangeIdade" id="radio" type="radio" >31-40 anos
+        <input name="rangeIdade" id="radio" type="radio" >41-50 anos
+        <input name="rangeIdade" id="radio" type="radio" >mais de 50 anos
+        <br>
+        <button type="submit">Salvar</button>
+      </form>
+    </div>
+
+<br>
 
     <table style="border: 1px solid;"> 'TABLE'<br>'THEAD''TR''TH'<br>'TBODY','TR','TD'
       <thead style="background-color: gray;">
