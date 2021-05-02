@@ -20,6 +20,14 @@
       alert("alerta");
     </script> -->
 
+    <!-- Para ponterar a pagina em um id use o #, isso chama fragment -->
+    <!-- http://127.0.0.1:5500/index.html#tabela_de_precos -->
+
+    <!-- "essaVariavelTemEsseNome"
+    camelCase -->
+    <!-- "essa-variavel-tem-esse-nome" USAR ESSA PARA IDS E CLASSES
+    kebab-case -->
+
     <script src="/js/app.js"></script>
 
   </head>
@@ -62,7 +70,8 @@
 
 <br>
 
-    <table style="border: 1px solid;"> 'TABLE'<br>'THEAD''TR''TH'<br>'TBODY','TR','TD'
+    <!-- id deve ser único -->
+    <table id="tabela_de_precos" style="border: 1px solid;"> 'TABLE'<br>'THEAD''TR''TH'<br>'TBODY','TR','TD'
       <thead style="background-color: gray;">
         <tr>
           <th>Produto</th>
@@ -91,11 +100,12 @@
 
 <br>
 
-    <section>
+    <!-- class pode repetir -->
+    <section class="negrito">
       'SECTION'Uma seção do site
     </section>
 
-    <article>
+    <article class="negrito">
       'ARTICLE'Aqui temos um arquivo do site
     </article>
 
